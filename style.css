@@ -1,0 +1,339 @@
+     *{
+    margin: 0px;
+    padding: 5px;
+}
+    body{
+      width: 1250px;
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e2e2e2;
+      margin-top: -20px;
+    }
+    #topbar{
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    .fixedwidth{
+      width: 1250px;
+      margin-bottom: -20px;
+    }
+#topbar input{
+  height: 23px;
+	border-radius: 5px;
+}
+
+
+.fixedwidth button{
+  margin-top: -40px;
+  margin-bottom: -70px;
+  height: 35px;
+}
+    #companyname{
+      height: 40px;
+      padding: 40px;
+      font-size: 30px;
+      float: left;
+		margin-top: -40px;
+    }
+#companyname strong a {
+  text-decoration: none;
+      color: #585858;
+  
+}
+#forgetpassword {
+	float: right;
+	margin-top: 46px;
+	margin-right: -340px;
+}
+#forgetpassword a{
+	text-decoration: none;
+	color: black;
+}
+
+input[type=checkbox]{
+	vertical-align: middle;
+}
+
+    .login{
+      margin-top: 15px;
+      float: right
+    }
+
+    .clear{
+      clear:both;
+    }
+ 
+    #newbar {
+      background-color: #444;
+      height: 15px;
+      float: left;
+      width: 1350;
+      margin: 0 auto;
+      
+    }
+    #newbar li {
+      list-style: none;
+      float: left;
+      font-weight: bold;
+      font-size: 0.9em;
+      padding: 10px 0px 10px 0px;
+      margin-left: 100px;
+      margin-top: -15px;
+    }
+    #newbar li a {
+      text-decoration: none;
+      color: white;
+    }
+    .title{
+      padding: 200px 50px 0px 50px;
+      text-align: center;
+      background-image:url(Img/apartment-clean-condominium-279719.jpg);
+        width: 1250;
+      font-size: 2em;
+      margin: -10px -24px 0 5px;
+		height: 550px;
+    }
+
+.title h3{
+	color: white;
+	background-color: black;
+	opacity: .8;
+	margin: 0 0px 0 190px;
+	border-radius: 5px;
+	width: 800px;
+}
+    .search{
+      width: 250px;
+      height: 35px;
+ 
+    }
+    
+
+    #aa-footer  {
+  background-color: #444;
+  display: inline;
+  float: left;
+  padding: 0;
+  width: 100%;
+ color: white;
+}
+#aa-footer .aa-footer-area .aa-footer-left p a {
+  color: #fff;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding-top: 5px;
+
+}
+#aa-footer .aa-footer-area .aa-footer-right {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: right;
+  color: #fff;
+}
+#aa-footer .aa-footer-area .aa-footer-right a {
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  transition: all;
+}
+    .main{
+    margin: 0;
+  width: 1250px;
+ float: left;
+}
+
+.card{
+    width: 27%;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 1%;
+    }
+
+.card:hover{
+    box-shadow: 2px 2px 20px black;
+}
+
+
+.image img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+	float: left;
+    }
+
+.title2{
+    text-align: center;
+    padding: 10px;
+    }
+
+.description{
+
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+p{
+    font-size: 12px;
+}
+
+    .info {
+      padding: 20px;
+      background-color: #e2e2e2;
+      width: 95%;
+      }
+
+    .option{
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      outline: none;
+      }
+    
+    input[type=text], input[type=email], input[type=password] {
+      width: 95%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: white;
+      border-radius: 5px;
+      }
+input[type=emaill]{
+	width: 70%;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: bold;
+      background: white;
+     
+}
+ 
+    input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+      background-color:white;
+      outline: none;
+      }
+    textarea[name=description]{
+      width: 95%;
+      height: 100px;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background-color:white;
+      columns: 10;
+    }
+    
+    hr {
+      border: 1px solid #e2e2e2;
+      }
+
+    .registerbtn {
+      background-color: #4CAF50;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 98%;
+      opacity: 0.9;
+		font-size: 18px
+}
+.registerbtn2{
+	float: right;
+      padding: 10px 14px;
+      margin: -63px 130px;
+      border: none;
+	
+      cursor: pointer;
+      width: 10%;
+      opacity: 0.9;
+		font-size: 18px
+}
+    
+    input[name=pic]{
+      margin: 20px;
+    }
+.agents{
+	width: 100%;
+	float: left;
+}
+
+.agentimg img{
+    width: 300px;
+	height: 200px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 1%;
+	float: left;
+	border-style: groove
+    }
+a .frame02 {
+	margin: 1%;
+	margin-top: -6px;
+	height: 123px;
+	padding: 40px;
+	float: left;
+	border: solid;
+	background-color: white
+}
+.agentlist {
+	margin: 50px;
+	border: solid;
+	height: 245px;
+	padding: 0
+}
+.agentbut a{
+	text-decoration: none
+}
+.agentdes{
+	margin: 1%;
+}
+.agentbut button{
+	width: 20%;
+	margin: 1%;
+}
+#updatebtn{
+	background-color: lightblue;
+}
+#soldbtn{
+	background-color:brown;
+}
+#deletebtn{
+	background-color:red;
+}
+.agentimgs img{
+    width: 600px;
+	height: 420px;
+    border-radius: 5px;
+    margin: 1%;
+	display:run-in;
+	border-style: groove
+    }
+#sort{
+	float: right;
+	margin-right: 120px;
+}
+#sort select{
+	width: 84px;
+}
+#aboutus p{
+	line-height: 20px;
+	font-size: 15px;
+}
